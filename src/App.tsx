@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import logoGithub from './assets/logo-github.svg'
+import FormularioSignIn from './components/formulario';
+import HeaderSignIn from './components/header'
 
 function App() {
   return (
     <div className="App">
-      <img src={logoGithub} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
+      <div className="headerSignIn">
+        <HeaderSignIn/>
+      </div>
+      <div className="formularioSignIn">
+        <FormularioSignIn/>
+      </div>
     </div>
   );
 }
