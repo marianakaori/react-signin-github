@@ -28,7 +28,7 @@
 .formulario label{
     align-self: flex-start;
     margin-bottom: 8px;
-    font-size: 14px
+    font-size: 14px;
 }
 
 input#signInButton{
@@ -43,4 +43,19 @@ input#signInButton{
 
 input#signInButton:hover{
     background-color: #2c974b;
+}
+
+.forgotPassword{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #0969da;
+}
+
+.relative{
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
