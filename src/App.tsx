@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CadastreSeSignUp from './components/cadastrese';
 import FormularioSignIn from './components/formulario';
 import HeaderSignIn from './components/header'
 
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div className="formularioSignIn">
         <FormularioSignIn/>
+      </div>
+      <div className="cadastreSe">
+        <CadastreSeSignUp/>
       </div>
     </div>
   );
