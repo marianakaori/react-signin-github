@@ -1,0 +1,31 @@
+.links{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.links li{
+    font-size: 12px;
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    margin-right: 16px;
+    color: #0969da;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    color: #0969da;
+}
+
+.contact a{
+    color: #57606a;
+    margin: 0px;
+}
+
+.description{
+    font-size: 12px;
+}

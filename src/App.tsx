@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import CadastreSeSignUp from './components/cadastrese';
+import FooterSignIn from './components/footer';
 import FormularioSignIn from './components/formulario';
 import HeaderSignIn from './components/header'
 
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div className="cadastreSe">
         <CadastreSeSignUp/>
+      </div>
+      <div>
+        <FooterSignIn/>
       </div>
     </div>
   );
